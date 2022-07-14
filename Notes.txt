@@ -1,0 +1,24 @@
+React
+
+Is a JS library (not a JS framework)
+
+What do devs use react for?
+React is used to manage UI components.
+
+Then who creates the UI?
+UI is created with JSX (mix of HTML and Javascript)
+
+What are the new key terms which we will use routinely in react?
+Components
+Class based components
+Functional components
+Parent and Child Components
+Props (communication from parent to child component)
+States
+Component Life Cycle
+SPA (Single Page Applications)
+Routes
+Hooks
+Fragments
+
+

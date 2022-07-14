@@ -1,0 +1,7 @@
+1. User create-react-app to create rpject with name -> activityone
+2. Once created, run the project usign npm start
+3. Once successfully run, delete all files from public and src folder.
+4. Create index.html in public folder. Create html code and empty div with id in index.html
+5. Create root component in src folder
+6. Create index.js and use it as root component renderer.
+7. Use mix of variables and function to render JSX for root component.
