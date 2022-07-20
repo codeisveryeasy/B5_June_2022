@@ -29,11 +29,23 @@ class RemoteAPI extends React.Component {
 
     }
 
+    renderUsers=()=>{
+       return this.state.users.map((user)=>{
+        //console.log(user)
+        return (
+            <li key={user.id}>{user.name}</li>
+        )
+       })
+    }
 
     render() { 
         return (
             <div>
                 <h1>List of users: </h1>
+                <ol>
+                       {this.renderUsers()}
+                </ol>
+             
             </div>
         );
     }
